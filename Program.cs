@@ -13,35 +13,36 @@ namespace MeuApp
             while (true) {
             Console.WriteLine("Escolha a operacao: Paridade, Soma, Subtracao, Multiplicacao, Divisao");
             var operacao = Console.ReadLine();
+            operacao = operacao?.Trim().ToLower();
 
-            if (operacao == "Paridade") {
+            if (operacao == "paridade") {
                 var calc = new Operacoes();
                 int numero = LerNumero("Digite um numero para verificar paridade...");
                 Console.WriteLine($"O Resultado de {numero} é : " + 
                 (calc.ParImpar(numero) == 0 ? "Par" : "Impar"));
             }
-            else if (operacao == "Soma")
+            else if (operacao == "soma")
             {
                 var calc = new Soma();
                 int numero1 = LerNumero("Digite o primeiro numero...");
                 int numero2 = LerNumero("Digite o segundo numero...");
                 Console.WriteLine($"O Resultado de {numero1} + {numero2} é: " +calc.Somar(numero1, numero2));
             }
-            else if (operacao == "Subtracao")
+            else if (operacao == "subtracao")
             {
                 var calc = new Subtracao();
                 int numero1 = LerNumero("Digite o primeiro numero...");
                 int numero2 = LerNumero("Digite o segundo numero...");
                 Console.WriteLine($"O resultado de {numero1} - {numero2} é: " + calc.Subtrair(numero1, numero2));
             }
-            else if (operacao == "Multiplicacao") 
+            else if (operacao == "multiplicacao") 
             {
                 var calc = new Multiplicacao();
                 int numero1 = LerNumero("Digite o primeiro numero...");
                 int numero2 = LerNumero("Digite o segundo numero...");
                 Console.WriteLine($"O resultado de {numero1} * {numero2} é: " + calc.Multiplicar(numero1, numero2));
             }
-            else if (operacao == "Divisao")
+            else if (operacao == "divisao")
             {
                 var calc = new Divisao();
                 int numero1 = LerNumero("Digite o primeiro numero...");
