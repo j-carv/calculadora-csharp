@@ -5,7 +5,7 @@ namespace MeuApp
     {
         static void Main()
         {
-
+            while (true) {
             Console.WriteLine("Escolha a operacao: Paridade, Soma, Subtracao, Multiplicacao, Divisao");
             var operacao = Console.ReadLine();
 
@@ -52,8 +52,11 @@ namespace MeuApp
                 int numero2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine($"O resultado de {numero1} / {numero2} é: " + calc.Dividir(numero1, numero2));
             }
-            Main();
+            else 
+            {
+                Console.WriteLine("Operacao invalida. Tente novamente.");
+            }
+            }
         }
-        
     }
 }
