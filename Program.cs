@@ -54,10 +54,3 @@ namespace MeuApp
         }
     }
 }
-
-/*Console.WriteLine("Digite seu nome:");
-            var Person = new User();
-            Person.Name = Console.ReadLine() ?? "";
-            Console.WriteLine("Digite sua idade:");
-            Person.Age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Bem-vindo, {Person.Name}, de {Person.Age}!");*/
