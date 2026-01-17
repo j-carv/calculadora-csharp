@@ -1,0 +1,14 @@
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\bin\Debug\net10.0\MeuApp.exe
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\bin\Debug\net10.0\MeuApp.deps.json
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\bin\Debug\net10.0\MeuApp.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\bin\Debug\net10.0\MeuApp.dll
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\bin\Debug\net10.0\MeuApp.pdb
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.dll
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\refint\MeuApp.dll
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.pdb
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\MeuApp.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\Projetos ServiÃ§o\C#\MeuApp\obj\Debug\net10.0\ref\MeuApp.dll
