@@ -2,7 +2,7 @@ namespace Calculadora
 {
     public class Operacoes
     {
-        public int ParImpar(int a)
+        public long ParImpar(long a)
         {
             return a % 2;
         }
@@ -10,7 +10,7 @@ namespace Calculadora
 
     public class Soma
     {
-        public int Somar(int a, int b)
+        public long Somar(long a, long b)
         {
             return a + b;
         }
@@ -18,7 +18,7 @@ namespace Calculadora
 
     public class Subtracao
     {
-        public int Subtrair(int a, int b)
+        public long Subtrair(long a, long b)
         {
             return a - b;
         }
@@ -26,7 +26,7 @@ namespace Calculadora
 
     public class Multiplicacao
     {
-        public int Multiplicar(int a, int b)
+        public long Multiplicar(long a, long b)
         {
             return a * b;
         }
@@ -34,7 +34,7 @@ namespace Calculadora
 
     public class Divisao
     {
-        public int Dividir(int a, int b)
+        public long Dividir(long a, long b)
         {
             return a / b;
         }
