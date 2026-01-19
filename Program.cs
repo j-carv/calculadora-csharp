@@ -8,7 +8,7 @@ namespace MeuApp
             static long LerNumero(string mensagem)
             {
                 Console.WriteLine(mensagem);
-                return Convert.ToInt32(Console.ReadLine());
+                return Convert.ToInt64(Console.ReadLine());
             }
             while (true) {
                 Console.WriteLine("Escolha a operacao: Paridade, Soma, Subtracao, Multiplicacao, Divisao");
@@ -18,7 +18,7 @@ namespace MeuApp
             {
                 case "paridade":
                     {
-                        var calc = new Operacoes();
+                        var calc = new Paridade();
                         long numero = LerNumero("Digite um numero para verificar paridade...");
                         Console.WriteLine($"O Resultado de {numero} é : " + (calc.ParImpar(numero) == 0 ? "Par" : "Impar"));
                         break;
