@@ -1,6 +1,6 @@
 namespace Calculadora
 {
-    public class Operacoes
+    public class Paridade
     {
         public long ParImpar(long a)
         {
